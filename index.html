@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Notes for Everyone</title>
         <style>
@@ -29,6 +31,17 @@
             margin-top: 0px;
             background-color: #AD2817;
             display: flex;
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://preview.redd.it/pil6sk83a3ba1.png?width=960&crop=smart&auto=webp&s=e91f24963b8bb1ba1af1731665aa2af6c7424b96");
+            background-size: cover;
+            background-position: center;
+            }
+            .text{
+                
+            margin-top: 10%;
+            font-size: 30px;
+            margin-left: -850px;
             }
 
             .top .header,
@@ -62,7 +75,6 @@
             gap: 100px;
             flex-grow: 0;
             margin: 100px auto;
-           
             }
             .campus {
             height: 350px;
@@ -84,45 +96,8 @@
             font-size: 189x;
             color: white;
             }
-
-            .up .one {
-            font-size: 48px;
-            font-weight: bolder;
-            color: #1F2937;
-            text-align: center;
-            }
-            .images {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            max-width: 1500px;
-            min-width: 450px;
-            margin: auto;
-            }
-            .images button {
-            border-radius: 25px;
-            margin: 0;
-            padding: 0;
-            border: none;
-            }
-
-            a {
-            padding: 8px;
-            }
-            .drive:hover,
-            button:hover {
-            background-color: lightblue;
-            border-radius: 25px;
-            cursor: pointer;
-            padding: 10px 25px 10px 25px;
-            }
-
-            .notes {
-            display: flex;
-            flex-direction: column;
-            margin: 25px;
-            align-items: center;
-            }
+            
+            
             .quote {
             display: flex;
             flex-direction: column;
@@ -131,17 +106,7 @@
             align-items: center;
             padding: 50px;
             }
-            .quote .one,
-            .quote .two {
-            font-size: 30px;
-            width: 600px;
-            font-weight: light;
-            }
-            .quote .two {
-            text-align: right;
-            font-weight: bold;
-            margin-top: 0;
-            }
+            
             .footer {
             display: flex;
             background-color: #0D0415;
@@ -150,6 +115,100 @@
             align-items: center;
             max-height: 30px;
             }
+            #services{
+            padding: 30px 0;
+
+            }
+            .sub-title01{
+            font-size: 70px;
+            font-family: 'Patrick Hand', cursive;
+            }
+            .sub-title02{
+            font-size: 70px;
+            font-family: 'Patrick Hand', cursive;
+            }
+            .services-list{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 40px;
+            margin-top: 50px;
+            }
+            .services-list div{
+             background: wheat;
+            padding: 40px;
+            font-size: 13px;
+            font-weight: 300;
+            border-radius: 10px;
+            transition: background 0.5s, transform 0.5s;
+            }
+            .services-list p{
+            font-size: 20px;
+            }
+            .services-list i{
+            font-size: 50px;
+            margin-bottom: 30px;
+            }
+            .services-list div h2{
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            }
+            .services-list div a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+            margin-top: 20px;
+            display: inline-block;
+            }
+            .services-list div:hover{
+            background: #ff004f;
+            transform: translateY(-10px);
+            }
+            .services-list button {
+            padding: 10px;
+            }
+            .services-list button:hover{
+            cursor: pointer;
+            }
+            #services.container {
+                max-width: 1200px;
+            }
+            .quote{
+                margin-top: 0px;
+                background-color: #AD2817;
+                display: flex;
+                width: 94.5%;
+                height: 100vh;
+                background-image: url("https://preview.redd.it/6g63x2z7v3ba1.png?width=960&crop=smart&auto=webp&s=2cb453a2c4ff06ac622b0a5e199da35320fd02b8");
+                background-size: cover;
+                background-position: center;
+            }
+            
+
+            @media only screen and (max-width: 600px){
+
+            .quote{
+                margin-top: 0px;
+                background-color: #AD2817;
+                display: flex;
+                width: 100%;
+                height: 100vh;
+                background-image: url("https://preview.redd.it/f6e9ietj42ba1.png?width=640&crop=smart&auto=webp&s=b4696853c802a82fde51e5b1a625dd94ceaa9779");
+                background-size: cover;
+                background-position: center;
+            }
+            #uvce {
+            margin-top: 0px;
+            background-color: #AD2817;
+            display: flex;
+            width: 124%;
+            height: 100vh;
+            background-image: url("https://preview.redd.it/zdj3suzi42ba1.png?width=640&crop=smart&auto=webp&s=beadd7dfa4a7529e24607a52c366ba82e59dfd31");
+            background-size: cover;
+            background-position: center;
+            }
+        }
+            
         </style>
     </head>
     <body>
@@ -161,95 +220,169 @@
         <div id="uvce">
             <div class="container">
                 <div class="text">
-                    <p class="heading">P and C, UVCE </p>
-                    <p class="subtext">Notes and videos for students who came to college for the sake of attendance, just like us -_- </br>Special thanks to our seniors for these notes.</p>
+                    <p class="heading">No Fear when Notes<br> is here !!!</p>
+                    <p class="subtext">Notes and videos for students who <br> came to college for the sake <br>of attendance, just like us -_- </br>Special thanks to our seniors for these notes.</p>
                 </div>
                 <div>
-                    <img class="campus" src="https://preview.redd.it/lr5p2u9vjwaa1.jpg?width=960&crop=smart&auto=webp&s=123012fc9ee835b008967c7e2c510b5153c8a709" alt="UVCE pic">
                 </div>
             </div>
         </div>
         <div class="up">
-            <p class="one">Notes </p>
-            <div class="images">
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1KX0kLAL--ymAs4zjTyuS9gJRM5njCG8I" target="_blank" rel="noopener noreferrer"><button><strong>PPS</strong></button></a>
+            <div id="servicess">
+                <div class="contaniner">
+                    <h1 class="sub-title02">Notes</h1>
+                    <div class="services-list">
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>PPS</h2>
+                        <a href="https://drive.google.com/drive/folders/1M14FQdcDGtpRUg17_qHyUCTJyBOktsY9" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/19KH1MaacFJGxZ30XurB3Qu9QqZRJWWfh" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>PPS Lab</h2>
+                        <a href="https://drive.google.com/drive/folders/1chjqoV-O0BccPbpjZURYJDZX-YUKvGPG" target="_blank" rel="noopener noreferrer"><button><strong>Manual</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Electrical Engg.</h2>
+                        <a href="https://drive.google.com/drive/folders/17UdpNF6aEW3hn5OLBbFhoYjzwL5muUu1" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/1dQPfJl87L4M-Z6Y0a6DGT9PehfUi5GGB" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Electrical Engg. Lab</h2>
+                        <a href="https://drive.google.com/drive/folders/1sFFJbUXEu6HAQUBxNttn1l412pzdVt7H" target="_blank" rel="noopener noreferrer"><button><strong>Manual</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Principles Of Electronics</h2>
+                        <a href="https://drive.google.com/drive/folders/1RSIygpgjSr_icSJwcHrQmXKi1dYfjROO" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/1XG_G-IXYRwzQYpXobUUp6zKtQ3EWE5nm" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Chemistry</h2>
+                        <a href="https://drive.google.com/drive/folders/1-AIg6RTyVaQhL-LvaHdg369Ej4dyVSbT" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/1Mf-BzNOEAUsrxik9uuTNP2dvWyIjaW1P" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Drawing</h2>
+                        <a href="https://drive.google.com/drive/folders/1Lup1ck7BM8Isb1UJJNN56jdSmOyINtqc" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/143wbNTK9xLehxtiFFIS_tljG0MtfeBoL" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Mathematics</h2>
+                        <a href="https://drive.google.com/drive/folders/1QmTROSXIjBnbSKILYXVfwb8hPwOuFr1a" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/1Txbi_4F15Z3mho7k2KsVrCMDouTloVxB" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Mechanics</h2>
+                        <a href="https://drive.google.com/drive/folders/1SQrUDPFLR_Uo8bR2aEHSKp_7Md52fXP6" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                        <a href="https://drive.google.com/drive/folders/1IQvuUmo0ZI8wCQECQowV1yXNLlFcI8TD" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Physics</h2>
+                        <a href="https://drive.google.com/drive/folders/1MlHbHj22K7yxhpaQVQdzIESPVh4F98kj" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                      </div>
+                      <div>
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>English</h2>
+                        <a href="https://drive.google.com/drive/folders/1poof1s604hvt3_GLRVQ_U5hDmZcMEj7B" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Kannada</h2>
+                        <a href="https://drive.google.com/drive/folders/1oCZ700zLESHjNMRWuMSFoWLfb952WMdD" target="_blank" rel="noopener noreferrer"><button><strong>Textbook</strong></button></a>
+                      </div>
+                      <div>
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Mechanical Engg. Sciences</h2>
+                        <a href="https://drive.google.com/drive/folders/1zubcwUC1L3VqfH5tWaE4VHnlMMVuXC5h" target="_blank" rel="noopener noreferrer"><button><strong>Notes</strong></button></a>
+                      </div>
+                      <div>
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Physics Lab</h2>
+                        <a href="https://drive.google.com/drive/folders/1sS8nBry_z0rKXpx1Vj9otkhL8owl4E3Y" target="_blank" rel="noopener noreferrer"><button><strong>Manual</strong></button></a>
+                      </div>
+                      <div>
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Woorkshop</h2>
+                        <a href="https://drive.google.com/drive/folders/1uKh1j-EKkMaA678zPUMv2GcdZpscw6D5" target="_blank" rel="noopener noreferrer"><button><strong>Manual</strong></button></a>
+                      </div>
+                      
+              
+              
+                    </div>
                 </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1chjqoV-O0BccPbpjZURYJDZX-YUKvGPG" target="_blank" rel="noopener noreferrer"><button><strong>PPS Lab</strong></button></a>
+              </div>
+              <div id="servicess">
+                <div class="contaniner">
+                    <h1 class="sub-title02">Youtube Playlist</h1>
+                    <div class="services-list">
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>PPS</h2>
+                        <a href="https://youtube.com/playlist?list=PLJ5C_6qdAvBFzL9su5J-FX8x80BMhkPy1" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Electrical Engg.</h2>
+                        <a href="https://youtube.com/playlist?list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Principles Of Electronics</h2>
+                        <a href="https://youtube.com/playlist?list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Chemistry</h2>
+                        <a href="https://youtube.com/playlist?list=PLm_MSClsnwm9p_yaZ8zIW1LxkK7_n98gD" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Drawing</h2>
+                        <a href="https://youtube.com/playlist?list=PLIhUrsYr8yHwDUrVYmUNYkEeZgZTvoIfS" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Mathematics</h2>
+                        <a href="https://youtube.com/playlist?list=PLU6SqdYcYsfINU_Y9CMp1pZ827ZB1U-Xn" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
+                      <div>
+              
+                        <i class="fa fa-thin fa-vr-cardboard"></i>
+                        <h2>Engg. Mechanics</h2>
+                        <a href="https://youtube.com/playlist?list=PLDN15nk5uLiAyM7MbRBF1eIFC8y5vMRxI" target="_blank" rel="noopener noreferrer"><button><strong>Playlist</strong></button></a>
+                      </div>
                 </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1rKVtWbD9S33S6Ys1V078nZwwUtpLlaWy" target="_blank" rel="noopener noreferrer"><button><strong>Electrical Engg.</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1sFFJbUXEu6HAQUBxNttn1l412pzdVt7H" target="_blank" rel="noopener noreferrer"><button><strong>Electrical Engg. Lab</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1eT5DyzAYso_UOMoxnL8qv9whVnPNi-yI" target="_blank" rel="noopener noreferrer"><button><strong>Principles of Electronics</strong></button></a>    
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1VG0XEHn3Ifda3JQ-X2t60b3n3H-HdaWa" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Chemistry</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1_YuBSby9F1XUN7RnMvM7axk8SfpFpya4" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Drawing</strong></button></a>    
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1PUASOvM1NR_yS4RU7_ezH0yW9t3Dv9CE" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Mathematics</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/15gnmXDjzYgRDApRISkW7YdY_LUONVoKg" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Mechanics</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1MlHbHj22K7yxhpaQVQdzIESPVh4F98kj" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Physics</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1poof1s604hvt3_GLRVQ_U5hDmZcMEj7B" target="_blank" rel="noopener noreferrer"><button><strong>English</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1oCZ700zLESHjNMRWuMSFoWLfb952WMdD" target="_blank" rel="noopener noreferrer"><button><strong>Kannada</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1zubcwUC1L3VqfH5tWaE4VHnlMMVuXC5h" target="_blank" rel="noopener noreferrer"><button><strong>Mechanical Engg. Sciences</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1sS8nBry_z0rKXpx1Vj9otkhL8owl4E3Y" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Physics Lab</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://drive.google.com/drive/folders/1uKh1j-EKkMaA678zPUMv2GcdZpscw6D5" target="_blank" rel="noopener noreferrer"><button><strong>Workshop</strong></button></a>
-                </div>
-            </div>
-            <p class="one">Youtube Playlists </p>
-            <div class="images">
-                <div class="notes">
-                    <a class="drive" href="https://www.youtube.com/playlist?list=PLJ5C_6qdAvBFzL9su5J-FX8x80BMhkPy1" target="_blank" rel="noopener noreferrer"><button><strong>PPS</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc" target="_blank" rel="noopener noreferrer"><button><strong>Electrical Engg.</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy" target="_blank" rel="noopener noreferrer"><button><strong>Principles of Electronics</strong></button></a>    
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PLm_MSClsnwm9p_yaZ8zIW1LxkK7_n98gD" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Chemistry</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PLIhUrsYr8yHwDUrVYmUNYkEeZgZTvoIfS" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Drawing</strong></button></a>    
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PLU6SqdYcYsfINU_Y9CMp1pZ827ZB1U-Xn" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Mathematics</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PLDN15nk5uLiAyM7MbRBF1eIFC8y5vMRxI" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Mechanics</strong></button></a>
-                </div>
-                <div class="notes">
-                    <a class="drive" href="https://youtube.com/playlist?list=PL4L-8kGyerEbxtH-guA-p32e_fW1qhuoU" target="_blank" rel="noopener noreferrer"><button><strong>Engg. Physics</strong></button></a>
-                </div>
-            </div>
+              </div>
+            
+        </div>
         </div>
         <div class="quote">
-            <p class="one"><em>"Millions of students pay for college only to end up studying from youtube, just like what you are doing now."</em></p>
-            <p class="two">- Newton and Einstien</p>
-            <img src="https://i.redd.it/3twc62gj9vaa1.jpg" alt="crying">
+
         </div>
         <div class="footer">
             <p>Created by Sunil Hegde</p>
